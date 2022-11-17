@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: "plus",
+  displayName: "PACKAGE_NAME",
   globals: {
     "babel-jest": {
       tsconfig: "<rootDir>/tsconfig.spec.json",
@@ -11,7 +11,7 @@ module.exports = {
   },
   transformIgnorePatterns: ["node_modules/(?!(tslog)/)"],
   extensionsToTreatAsEsm: [".ts"],
-  coverageDirectory: "../../coverage/packages/plus",
+  coverageDirectory: "../../coverage/packages/PACKAGE_NAME",
   moduleNameMapper: {
     "^(\\.{1,2}/.*)\\.js$": "$1",
   },
