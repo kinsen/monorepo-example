@@ -16,6 +16,12 @@ $ yarn bootstrap
 
 ```
 
+## Test
+
+```bash
+$ yarn test
+```
+
 ## Build
 
 ```bash
@@ -26,6 +32,12 @@ $ yarn rollup
 
 ```bash
 $ yarn start
+```
+
+## Create Package
+
+```bash
+$ bash scripts/create_package.sh <name>
 ```
 
 ## Referrences
